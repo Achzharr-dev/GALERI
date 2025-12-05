@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial;
-  background: #111;
+  background: #1e2248;
   color: #fff;
   text-align: center;
 }
@@ -21,7 +21,8 @@ audio {
   padding: 20px;
 }
 
-.gallery img {
+.gallery img,
+.gallery video {
   width: 100%;
   height: 150px;
   object-fit: cover;
@@ -30,7 +31,8 @@ audio {
   transition: .2s;
 }
 
-.gallery img:hover {
+.gallery img:hover,
+.gallery video:hover {
   transform: scale(1.05);
 }
 
@@ -46,7 +48,8 @@ audio {
   justify-content: center;
 }
 
-#lightbox img {
+#lightbox img, 
+#lightbox video {
   width: 80%;
   max-width: 600px;
   border-radius: 10px;
