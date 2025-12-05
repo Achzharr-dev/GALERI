@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeri Kenangan</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>Foto kita</h1>
+
+  <!-- Musik Latar -->
+  <audio id="bgMusic" autoplay loop>
+    <source src="css/about you.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- Galeri -->
+  <div class="gallery">
+    <img src="css/Aralie JKT48.jpeg" alt="Kenangan 1" />
+    <img src="css/foto2.jpg" alt="Kenangan 2" />
+    <img src="css/foto3.jpg" alt="Kenangan 3" />
+    <img src="css/foto4.jpg" alt="Kenangan 4" />
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" onclick="closeLightbox()">
+    <img id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
